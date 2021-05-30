@@ -164,7 +164,7 @@ if hacker== db_1:
 			while True:
 				try:
 					massage=input("Type Message: ")
-					subclient.send_message(message=massage ,chatId=chatid , messageType=110)
+					subclient.send_message(message=massage ,chatId=chatid , messageType=107)
 					if massage== db_clear:
 						os.system("clear")
 				except:
@@ -174,7 +174,7 @@ if hacker== db_1:
 			massage=input("Type a Message: ")
 			while True:
 				try:
-					subclient.send_message(message=massage ,chatId=chatid , messageType=110)
+					subclient.send_message(message=massage ,chatId=chatid , messageType=107)
 					print ("Message Send")
 				except:
 					pass
